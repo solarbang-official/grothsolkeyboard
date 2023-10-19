@@ -14,10 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 {
-  "name": "Esperanto",
+  "name": "Grothsol",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Esperanto keyboard - klavaro por Esperanto",
+  "description": "Grothsol keyboard - Groþsol Kybord",
   "background": {
     "scripts": ["background.js"]
   },
@@ -26,12 +26,12 @@ limitations under the License.
   ],
   "input_components": [
     {
-      "name": "Esperanto",
+      "name": "Grothsol",
       "type": "ime",
-      "id": "esperanto_klavaro",
-      "description": "Esperanto keyboard - klavaro por Esperanto",  // user visible description
-      "language": "eo",  // The primary language this IME is used for
-      "layouts": ["epo"]
+      "id": "grothsolkybord",
+      "description": "Groþsol keyboard",  // user visible description
+      "language": "gþ",  // The primary language this IME is used for
+      "layouts": ["gþo"]
     }
   ]
 }
